@@ -1,0 +1,139 @@
+# -- 前提：使用`npm i`安装 依赖，否则文章代码块样式会出错
+# site name
+# 站点名
+prefixName: トトロ
+siteName: 天赐
+# favicon and site master avatar
+# 站点的favicon和头像输入图片路径
+#（下面的配置是都是cdn的相对路径，没有cdn请填写完整路径，建议使用jsdeliver搭建一个cdn啦，先去下载我的cdn替换下图片就行了，简单方便~）
+favicon: /images/favicon.ico
+avatar: /images/avatar.jpg
+# 站点url,为"/"则是跳转到本网址的首页
+url: /
+# 站点介绍（或者说是个人签名
+description: 记录生活，点滴成长~
+# 站点cdn，没有就为空；若是cdn为空，一些图片地址就要填完整地址了，比如之前avatar就要填https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg
+# cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+cdn: 
+# 开启pjax 1
+pjax: 1
+# 显示数学公式 1-开启
+mathjax: 1
+
+# 站点首页的公告信息
+notice: Just do IT!
+# 懒加载的加载中图片
+lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+
+# 站点菜单配置 
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    技术: {path: /categories/技术/, fa: fa-code }, 
+    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+    资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+    随想: {path: /categories/随想/, fa: fa-commenting-o },
+    转载: {path: /categories/转载/, fa: fa-book }
+  } }
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    影视: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones },
+    图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+    我？: {path: /about/, fa: fa-meetup}, 
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+#    Lab: {path: /lab/, fa: fa-cogs },
+  } }
+  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片
+bg:
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/1.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/2.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/侧耳倾听1.gif
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/魔女宅急便1.bmp
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/悬崖上的金鱼姬1.bmp
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/悬崖上的金鱼姬2.bmp
+
+
+# 背景图片样式：空 原图效果、filter-dim 阴影、filter-grid 横条、filter-dot 点点
+bgclass: filter-dot
+
+# startdash面板 url, title, desc img
+startdash: 
+  - {url: https://github.com/xiongtianci-tc/hexo-theme-sakura, title: Sakura, desc: 本站 hexo 主题, img: /images/startdash/sakura.md.png}
+  - {url: http://space.bilibili.com/349277426, title: Bilibili, desc: 博主的b站视频, img: /images/startdash/bilibili.jpg}
+  - {url: /, title: 天赐的万事屋, desc: 技术服务, img: /images/startdash/wangshiwu.jpg}
+
+
+
+# your site build time or founded date
+# 你的站点建立日期
+siteBuildingTime: 28/11/2018 15:36:06
+
+#social  url, img PC端配置
+# 社交按钮(social)  url, img PC端配置
+social:
+  github: {url: https://github.com/xiongtianci-tc, img: /images/social/github.png}
+  email: {url: mailto:tiancixiong@163.com, img: /images/social/email.svg}
+  wechat: {url: /#, qrcode: https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/wechat.jpg, img: /images/social/wechat.png}
+  sina: {url: http://weibo.com/6338246468?is_all=1, img: /images/social/sina.png}
+  # wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
+  # zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
+  
+# 社交按钮(msocial)  url, img 移动端配置
+msocial:
+  github: {url: http://github.com/xiongtianci-tc, fa: fa-github, color: 333}
+  weibo: {url: https://weibo.com/u/6338246468?is_all=1, fa: fa-weibo, color: dd4b39}
+  # qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+
+# 赞赏二维码（其中wechatSQ是赞赏单页面的赞赏码图片）
+donate:
+  # paypal: https://www.paypal.me/hojuncn
+  alipay: /images/custom/donate/AliPayQR.jpg
+  wechat: /images/custom/donate/WeChanQR.png
+  wechatSQ: /images/custom/donate/WeChanSQ.jpg
+
+# 首页视频地址，视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: Unbroken.mp4
+
+# 左下角aplayer播放器配置 主要改id和server这两项，修改详见[aplayer文档] 
+# https://aplayer.js.org/#/zh-Hans/、https://blog.csdn.net/hushhw/article/details/88092728
+# QQ音乐歌单ID：~/playlist/2073143208.html -> 这里的 2073143208 就是歌单ID
+aplayer: 
+  # id: 2660651585 -> 网易云
+  id: 2073143208
+  server: tencent
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+# Valine 评论配置
+# https://leancloud.cn/dashboard/#/apps
+valine: true
+v_appId: NjsQAuL1k29JMFf121E0AJHF-gzGzoHsz
+v_appKey: 7zPSYnuDLeyCNoSQpgTXdC1v
+
