@@ -6,15 +6,15 @@ siteName: 天赐
 # favicon and site master avatar
 # 站点的favicon和头像输入图片路径
 #（下面的配置是都是cdn的相对路径，没有cdn请填写完整路径，建议使用jsdeliver搭建一个cdn啦，先去下载我的cdn替换下图片就行了，简单方便~）
-favicon: /images/favicon.ico
-avatar: /images/avatar.jpg
+favicon: /img/custom/favicon.ico
+avatar: /img/custom/avatar.jpg
 # 站点url,为"/"则是跳转到本网址的首页
 url: /
-# 站点介绍（或者说是个人签名
-description: 记录生活，点滴成长~
+# 站点介绍（或者说是个人签名）
+description: Viva La Vida
 # 站点cdn，没有就为空；若是cdn为空，一些图片地址就要填完整地址了，比如之前avatar就要填https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg
 # cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
-cdn: 
+cdn: https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0
 # 开启pjax 1
 pjax: 1
 # 显示数学公式 1-开启
@@ -23,7 +23,7 @@ mathjax: 1
 # 站点首页的公告信息
 notice: Just do IT!
 # 懒加载的加载中图片
-lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+lazyloadImg: https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/loader/orange.progress-bar-stripe-loader.svg
 
 # 站点菜单配置 
 menus:
@@ -58,14 +58,22 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片
 bg:
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/totoro.jpg
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/1.jpg
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/2.jpg
-  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/侧耳倾听1.gif
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/totoro1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/1.jpg
+  - https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/cover/2.jpg
+  - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/侧耳倾听1.gif         # jsdelivr 中文名称访问失败，暂时使用coding
   - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/魔女宅急便1.bmp
   - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/悬崖上的金鱼姬1.bmp
   - https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/cover/悬崖上的金鱼姬2.bmp
@@ -76,9 +84,9 @@ bgclass: filter-dot
 
 # startdash面板 url, title, desc img
 startdash: 
-  - {url: https://github.com/xiongtianci-tc/hexo-theme-sakura, title: Sakura, desc: 本站 hexo 主题, img: /images/startdash/sakura.md.png}
-  - {url: http://space.bilibili.com/349277426, title: Bilibili, desc: 博主的b站视频, img: /images/startdash/bilibili.jpg}
-  - {url: /, title: 天赐的万事屋, desc: 技术服务, img: /images/startdash/wangshiwu.jpg}
+  - {url: https://github.com/xiongtianci-tc/hexo-theme-sakura, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
+  - {url: http://space.bilibili.com/349277426, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
+  - {url: /, title: 天赐的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
 
 
 
@@ -89,10 +97,10 @@ siteBuildingTime: 28/11/2018 15:36:06
 #social  url, img PC端配置
 # 社交按钮(social)  url, img PC端配置
 social:
-  github: {url: https://github.com/xiongtianci-tc, img: /images/social/github.png}
-  email: {url: mailto:tiancixiong@163.com, img: /images/social/email.svg}
-  wechat: {url: /#, qrcode: https://dev.tencent.com/u/xiongtianci/p/myHexoBlog/git/raw/master/theme/wechat.jpg, img: /images/social/wechat.png}
-  sina: {url: http://weibo.com/6338246468?is_all=1, img: /images/social/sina.png}
+  github: {url: https://github.com/xiongtianci-tc, img: /img/social/github.png}
+  email: {url: mailto:tiancixiong@163.com, img: /img/social/email.svg}
+  wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+  sina: {url: http://weibo.com/6338246468?is_all=1, img: /img/social/sina.png}
   # wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
   # zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
   
@@ -104,36 +112,52 @@ msocial:
 
 # 赞赏二维码（其中wechatSQ是赞赏单页面的赞赏码图片）
 donate:
-  # paypal: https://www.paypal.me/hojuncn
-  alipay: /images/custom/donate/AliPayQR.jpg
-  wechat: /images/custom/donate/WeChanQR.png
-  wechatSQ: /images/custom/donate/WeChanSQ.jpg
+  paypal: https://paypal.me/TianciXiong
+  alipay: /img/custom/donate/custom/donate/AliPayQR.jpg
+  wechat: /img/custom/donate/custom/donate/WeChanQR.png
+  wechatSQ: /img/custom/donate/custom/donate/WeChanSQ.jpg
 
 # 首页视频地址，视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
-  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  url: https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
-  name: Unbroken.mp4
+  name: /video/Unbroken.mp4
 
 # 左下角aplayer播放器配置 主要改id和server这两项，修改详见[aplayer文档] 
+# npm install --save hexo-tag-aplayer
 # https://aplayer.js.org/#/zh-Hans/、https://blog.csdn.net/hushhw/article/details/88092728
 # QQ音乐歌单ID：~/playlist/2073143208.html -> 这里的 2073143208 就是歌单ID
 aplayer: 
   # id: 2660651585 -> 网易云
-  id: 2073143208
+  id: 7040682880
+  # 音乐平台 netease,tencent,kugou,xiami,baidu
   server: tencent
+  # song,playlist,album,search,artist
   type: playlist
+  # 开启固定模式
   fixed: true
+  # 自动播放，移动端浏览器暂时不支持此功能
   autoplay: false
+  # 列表循环模式 all,one,none
   loop: all
+  # 列表播放模式 list,random
   order: random
+  # 音乐文件预载入模式，可选项：none,metadata,auto
   preload: auto
+  # 播放器音量
   volume: 0.7
+  # 该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停
   mutex: true
+
 
 # Valine 评论配置
 # https://leancloud.cn/dashboard/#/apps
 valine: true
 v_appId: NjsQAuL1k29JMFf121E0AJHF-gzGzoHsz
 v_appKey: 7zPSYnuDLeyCNoSQpgTXdC1v
+
+# 
+footer: 
+  # 是否启用不蒜子统计访客数量，默认：false
+  counter: true
 
